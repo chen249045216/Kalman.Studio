@@ -183,25 +183,25 @@ namespace Kalman.Utilities
                 case DbType.AnsiStringFixedLength:
                 case DbType.String:
                 case DbType.StringFixedLength:
-                    return "String";
+                    return "string";
                 case DbType.Binary:
                     return "byte[]";
                 case DbType.Boolean:
-                    return "Boolean";
+                    return "bool";
                 case DbType.Byte://?
                     return "int";
                 case DbType.Currency:
                     return "double";
                 case DbType.Date:
-                    return "Timestamp";
+                    return "DateTime";
                 case DbType.DateTime:
-                    return "Timestamp";
+                    return "DateTime";
                 case DbType.DateTime2:
-                    return "Timestamp";
+                    return "DateTime";
                 //case DbType.DateTimeOffset:
                 //    return "DateTime";
                 case DbType.Decimal:
-                    return "BigDecimal";
+                    return "decimal";
                 case DbType.Double:
                     return "double";
                 case DbType.Guid:
